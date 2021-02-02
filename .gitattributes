@@ -33,6 +33,9 @@ echo "-----> Install Git LFS"
 
 ) | indent
 echo "Git LFS"
+cat << EOF
+--- {}
+EOF
 echo "-----> Download Git LFS assets"
 (
     pushd "$build_dir"
