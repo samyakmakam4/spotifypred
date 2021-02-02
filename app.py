@@ -4,6 +4,8 @@ import requests
 import pickle
 import numpy as np
 import sklearn
+import gunicorn
+import pandas as pd
 from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 model = pickle.load(open('rf.pkl', 'rb'))
