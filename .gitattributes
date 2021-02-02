@@ -32,7 +32,7 @@ echo "-----> Install Git LFS"
     popd
 
 ) | indent
-
+echo "Git LFS"
 echo "-----> Download Git LFS assets"
 (
     pushd "$build_dir"
